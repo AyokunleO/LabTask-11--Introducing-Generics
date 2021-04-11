@@ -1,0 +1,16 @@
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\obj\Debug\net5.0\IntergenicResearchLib.csprojAssemblyReference.cache
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\obj\Debug\net5.0\IntergenicResearchLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\obj\Debug\net5.0\IntergenicResearchLib.AssemblyInfoInputs.cache
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\obj\Debug\net5.0\IntergenicResearchLib.AssemblyInfo.cs
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\obj\Debug\net5.0\IntergenicResearchLib.csproj.CoreCompileInputs.cache
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\bin\Debug\net5.0\IntergenicResearchLib.exe
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\bin\Debug\net5.0\IntergenicResearchLib.deps.json
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\bin\Debug\net5.0\IntergenicResearchLib.runtimeconfig.json
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\bin\Debug\net5.0\IntergenicResearchLib.runtimeconfig.dev.json
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\bin\Debug\net5.0\IntergenicResearchLib.dll
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\bin\Debug\net5.0\ref\IntergenicResearchLib.dll
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\bin\Debug\net5.0\IntergenicResearchLib.pdb
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\obj\Debug\net5.0\IntergenicResearchLib.dll
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\obj\Debug\net5.0\ref\IntergenicResearchLib.dll
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\obj\Debug\net5.0\IntergenicResearchLib.pdb
+C:\CodebitsAcademy\LabTasks\Genic University\IntergenicResearchLib\obj\Debug\net5.0\IntergenicResearchLib.genruntimeconfig.cache
