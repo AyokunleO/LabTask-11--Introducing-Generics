@@ -5,17 +5,16 @@ namespace IntergenicResearchLib
     {
         public string Name { get; set; }
         private int year;
-        public string BookName { get; set; }
-        public string BookId { get; set; }
-        public Date DateIssue { get; set; }
-        public Date DateReturn { get; set; }
+        public Book BookInfo { get; set; }
 
-        public Library(string name, int year, string bookName, string bookId, Date dateIssue, Date dateReturn)
+        public DateTime DateIssue { get; set; }
+        public DateTime DateReturn { get; set; }
+
+        public Library(string name, int year, Book bookInfo, DateTime dateIssue, DateTime dateReturn)
         {
             Name = name;
             Year = year;
-            BookName = bookName;
-            BookId = bookId;
+            BookInfo = bookInfo;
             DateIssue = dateIssue;
             DateReturn = dateReturn;
         }
@@ -28,21 +27,26 @@ namespace IntergenicResearchLib
         {
             return Year;
         }
-        public string GetBook()
+        public Book GetBook()
         {
-            return BookName;
+            return BookInfo;
         }
-        public Date GetDateIssue()
+        public DateTime GetDateIssue()
         {
             return DateIssue;
         }
-        public Date GetDateReturn()
+        public DateTime GetDateReturn()
         {
             return DateReturn;
         }
         public string GetDefaulter()
         {
-            return $"Student's name: {Name}\nBook name: {BookName}\nBook Id: {BookId}";
+            if(DateReturn.Subtract(DateIssue) >  new TimeSpan(3,0,0,0))
+            {
+                return $"Student's name: {Name}\nBook Info: {BookInfo}";
+            }else{
+                return $"No defaulter at the moment";
+            }
         }
         public int Year
         {
@@ -57,7 +61,7 @@ namespace IntergenicResearchLib
 
         public override string ToString()
         {
-            return $"{Name}, {Year}, {BookName}, {BookId}, {DateIssue}, {DateReturn}\n";
+            return $"{Name}, {Year}, {BookInfo}, {DateIssue}, {DateReturn}\n";
         }
 
         

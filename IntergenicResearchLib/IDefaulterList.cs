@@ -5,9 +5,9 @@ namespace IntergenicResearchLib
     {
          string GetName();
          int GetYear();
-         string GetBook();
-         Date GetDateIssue();
-         Date GetDateReturn();
+         Book GetBook();
+         DateTime GetDateIssue();
+         DateTime GetDateReturn();
          string GetDefaulter();
 
     }
